@@ -48,13 +48,13 @@ const sentences = [
   // --- Questions (20) ---
   { type: "question", correct: ["Has", "she", "been", "crying", "?"], distractors: ["have", "be", "cried", "was"] },
   { type: "question", correct: ["Have", "they", "been", "playing", "tennis", "?"], distractors: ["has", "be", "played", "were"] },
-  { type: "question", correct: ["Have", "we", "been", "waiting", "long", "?"], distractors: ["has", "be", "waited", "were"] },
+  { type: "question", correct: ["Have", "you", "been", "waiting", "long", "?"], distractors: ["has", "be", "waited", "were"] },
   { type: "question", correct: ["Has", "he", "been", "working", "today", "?"], distractors: ["have", "be", "worked", "was"] },
   { type: "question", correct: ["Have", "you", "been", "studying", "for", "the", "exam", "?"], distractors: ["has", "be", "studied", "were"] },
   { type: "question", correct: ["Has", "Tom", "been", "cooking", "?"], distractors: ["have", "be", "cooked", "was"] },
   { type: "question", correct: ["Have", "the", "children", "been", "drawing", "?"], distractors: ["has", "be", "drew", "were"] },
   { type: "question", correct: ["Has", "she", "been", "listening", "to", "music", "?"], distractors: ["have", "be", "listened", "was"] },
-  { type: "question", correct: ["Have", "we", "been", "cleaning", "the", "room", "?"], distractors: ["has", "be", "cleaned", "were"] },
+  { type: "question", correct: ["Have", "you", "been", "cleaning", "the", "room", "?"], distractors: ["has", "be", "cleaned", "were"] },
   { type: "question", correct: ["Have", "they", "been", "swimming", "?"], distractors: ["has", "be", "swam", "were"] },
   { type: "question", correct: ["Has", "he", "been", "fixing", "the", "car", "?"], distractors: ["have", "be", "fixed", "was"] },
   { type: "question", correct: ["Have", "you", "been", "watching", "TV", "?"], distractors: ["has", "be", "watched", "were"] },
@@ -203,6 +203,7 @@ restartBtn.addEventListener("click", restartSession);
 // Initialize session
 pickSessionSentences();
 renderSentence();
+
 
 
 
